@@ -1,4 +1,7 @@
-
+// Project: FPS Game
+// This script is responsible for spawning ammo pickups at random spawn points in the game world. It checks if the pickups are destroyed and respawns them after a specified delay.
+// The script uses Unity's MonoBehaviour class and includes methods for spawning prefabs, checking if they are destroyed, and managing the spawn points.
+// It also includes a public variable for the prefab to be spawned, a list of spawn points, and a delay for respawning the pickups.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,7 +18,7 @@ public class PickupsSpawner : MonoBehaviour
     }
     public void SpawnPrefabs()
     {
-       for (int i = 0; i < amount; i++)
+        for (int i = 0; i < amount; i++)
         {
             SpawnPrefab();
         }

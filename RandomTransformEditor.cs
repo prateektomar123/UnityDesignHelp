@@ -1,3 +1,7 @@
+// This script creates a custom editor window in Unity that allows the user to create random transforms (empty GameObjects) around a target GameObject.
+// The user can specify the number of transforms, the minimum distance between them, and whether to apply random rotation.
+// The script uses Unity's Editor namespace to create the custom window and handle the creation of transforms in the scene.
+// It also includes error handling to ensure that the target GameObject is assigned before creating the transforms.
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.AI;

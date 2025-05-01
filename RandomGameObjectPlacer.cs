@@ -1,4 +1,8 @@
-/*using System.Collections.Generic;
+// This script allows you to randomly place GameObjects in the scene based on a list of target transforms.
+// It provides a custom editor in Unity that allows you to specify the GameObjects to be placed and the number of instances for each prefab.
+// The script includes a button in the inspector to trigger the placement of GameObjects, and it handles the instantiation of the prefabs at the specified transforms.
+// The script also includes error handling to ensure that the necessary data is provided before placing the GameObjects.
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -71,4 +75,3 @@ public class RandomGameObjectPlacer : MonoBehaviour
         }
     }
 }
-*/

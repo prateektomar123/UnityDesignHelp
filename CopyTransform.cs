@@ -1,3 +1,7 @@
+// This script is used to copy the transform data of a selected GameObject in Unity.
+// It allows you to duplicate the selected GameObject and set the pose of the duplicate object and its children.
+// The script uses Unity's Editor class to create a custom menu item in the GameObject menu. When the menu item is clicked, it duplicates the selected object and sets the transform data for the duplicate object and its children.
+// The script includes error handling to ensure that an object is selected before attempting to duplicate it. It also uses Undo.RecordObject to allow for undoing the changes made to the transform data.
 using UnityEditor;
 using UnityEngine;
 
